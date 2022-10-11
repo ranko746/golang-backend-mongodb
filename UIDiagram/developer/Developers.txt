@@ -1,0 +1,7 @@
+DEVELOPERS
+
+Developers will be using Dashboard; to download plugin ( currently UNITY but soon UNREAL will be added), watch manuel & download manuel pdf, add games, delete games, block brands, select & block regions, add new spot, add video spot, give brief description on their games ( genre, targeted group, regions etc…), follow games ad performence in means of #view&duration per game, #view&duration per ad spot, #view&duration per campaign, #view&duration per brand, total income per game: ad spot-campaign-brand. Same items with per click.
+#of games & ad spots, #of campaign per game 
+total income, total withdrawal, total cash remaining in wallet. Export reports in pdf&excell&doc
+Suggest new advertisers & brands ( with communication details )
+Setup user details of their company ( admin – game specific)

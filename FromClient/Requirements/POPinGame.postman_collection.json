@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "0307d9cb-2b40-4a51-9b04-4ae16d7289ba",
+		"name": "POPinGame",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"client_id\": \"77004ea213d5fc71acf74a8c9c6795fb\",\r\n        \"client_secret\": \"8a5da52ed126447d359e70c05721a8aa\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://popingame.com/api/token",
+					"protocol": "http",
+					"host": [
+						"popingame",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/POPinGame/api/getbanner",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImEyZDg2ZmJiZTM5NjZlZmEyOWRiYTE0MTgwYzg5OTU0ZGFjNGMwN2EyNDY4MGZmMGIyY2JiNWFlZTFhMzQzZDNiZjAyODgyZDIwNDE3ODljIn0.eyJhdWQiOiIxIiwianRpIjoiYTJkODZmYmJlMzk2NmVmYTI5ZGJhMTQxODBjODk5NTRkYWM0YzA3YTI0NjgwZmYwYjJjYmI1YWVlMWEzNDNkM2JmMDI4ODJkMjA0MTc4OWMiLCJpYXQiOjE2MDMyNjQ5NDMsIm5iZiI6MTYwMzI2NDk0MywiZXhwIjoxNjM0ODAwOTQzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.gXEPiChv2qPaZe-ewxe87bMvs7cz5LiT6PZuoljdXyViliWIJFdTB2Ddera8JUKI9XlbcPpgvfkAblDBVmBxoEy9vWBw2c7_QwOIkkytTr_aELy7YGSMysvSDCni8xqKH0dW-PxIAPrnFGvXbNPIE2NUJRfoUbuqHLp2gciRfSPZC8-BMxsHym6KLznx-xlFlb2LklFnNkFMnlcYiPT8Ik7VB5vpzv_aQBUwWidG9DrhqPhQaO0sV3yfaFG-fUUgsRFpacUIDo7r5ryBFT5xieZ038WptBiMYfZV77td5CZpCPJQEbcIverd0RASx1J7xknHbtlrlGzcsRpwySMTAbgiB2wqcRjt0i76F2xLR1WYTDcf4HufGCZvPMqhuaFKdLRWZAnmuy07nLD5xH0Bfa9JrDrRF3-77HoFotoM1UngrZUXD16KzjYMofp6_BqAaLHjp4B4yA2haXGBn5MFK2BCpDltMH08ZCMBCJAmlTvimR47NLHzj04ECMlZfzT8tVJ37Fz5ITyfjL_H8tygZu5alIzE02TSyoRnX_em6j693HQb8CRXQ2kyMUuh146U0WMHuRB19wPk82c3KKsetET72hrjR3T5iCDRqeMP2_Cbq5lbSDhjJo15yBRZ3hQHSPVFbzTQJdynAF4wjzy3BWvDBcCOuD8qxyjbCEWdyMc",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"game_id\" : \"18\",\r\n    \"platform_id\" : \"34\",\r\n    \"level_id\" : \"22\",\r\n    \"ip\" : \"::1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://popingame.com/api/getbanner",
+					"protocol": "http",
+					"host": [
+						"popingame",
+						"com"
+					],
+					"path": [
+						"api",
+						"getbanner"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,34 @@
+{
+    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijc1MzUxNDBhYzVjZjdkMjAxYzRjYjQ1OTNjODU2MzVhZWQ5ODgyOTljZTgxYjcyNDQ3ZWQ5ZjA5ZWIwZjgzNDgzOTMyYjY3NGQ4OTJmMDcwIn0.eyJhdWQiOiIxIiwianRpIjoiNzUzNTE0MGFjNWNmN2QyMDFjNGNiNDU5M2M4NTYzNWFlZDk4ODI5OWNlODFiNzI0NDdlZDlmMDllYjBmODM0ODM5MzJiNjc0ZDg5MmYwNzAiLCJpYXQiOjE2NjYxNzg1NDIsIm5iZiI6MTY2NjE3ODU0MiwiZXhwIjoxNjk3NzE0NTQyLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Lhi6GRfzWQR_-0NbcJV9wgMXOuGtp9ok0oHcCQJi4EtDxHGjKxBmbXoLLU5U-7VYd7_zr6b__nqFGRAW20fkdTniBJcamDz4QZRDZT4UZNoj-flxMzO8PmIcEHfDTzBUwf-j6mfILc25WVPBS32d0VQ310SOkFv2pp7qbRf6arwsKnA3MUtB4sTAq4eZzMjQhlkBnAZ4HerMj5bKmdFDidi97dHHET2W1gkt0FRbm0VJKYPKtKCucgdNHvvj6Tz3hAo8URsJ6lFquuU4j3HrdyyYf5Lw3HIf14_QxyKqFIwI8hnMip5QMdgsAW5uZ_XiSeM7V5MEWS8fWim7hOVyjVPoerMTeelIWauW6yGAtQTbxv4lMu96k7VxGJdLDF1gki-FRc6B8slehd5dED38Hg5tQZF57n0IH-AHPxOMuPqS7fRft_zXUwHZK1hImxkH5n3JiFuFP4KeM-CcHGh0q6tUmzvsDQPmmVNpP5_LR8LV7yF5nnpSI4SeyQLV5DNQ2j7NIPo6obOA5q1RXBFo8LVHYGvKRGsp-u_ZXwq5Ytd1qY2fNfRTjBIPeIm_MfT8FkIVPpK16Cmn6wULgj8W8S1zQb1y8qJo-lGHTS-5CZI_L2OYDiRG00XNMXHUVMg_QgzdWnxUMqp8k-1FWO8IkE3lcuGhgIhyxSjIx2-hycQ",
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+}
+
+{
+    "status": true,
+    "status_code": 100,
+    "status_message": "Success",
+    "data": [
+        {
+            "name": "Wall_2",
+            "banner_url": "http:\/\/popingame.com\/popinresource\/advertisements\/16\/resources\/upOSczKkkWPhShOsju2gnfB0YFZrxtcM5VAf8VbG.jpeg",
+            "link": null,
+            "width": 680,
+            "height": 890
+        },
+        {
+            "name": "Wall_1",
+            "banner_url": "http:\/\/popingame.com\/popinresource\/advertisements\/16\/resources\/GhFOm4aNTTBmXqY5tIG3D8htZJxlYHy6qEUHYxtv.jpeg",
+            "link": null,
+            "width": 1220,
+            "height": 760
+        },
+        {
+            "name": "Wall_3",
+            "banner_url": "http:\/\/popingame.com\/popinresource\/advertisements\/16\/resources\/ym5xU6dDnpb4Dfl2gEFZN8CXcXzGpV3gXMaQ3UKg.jpeg",
+            "link": null,
+            "width": 214,
+            "height": 428
+        }
+    ]
+}

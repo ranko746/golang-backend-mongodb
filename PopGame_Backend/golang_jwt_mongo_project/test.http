@@ -1,0 +1,35 @@
+@hostname = http://localhost
+@port = 8080
+@host = {{hostname}}:{{port}}
+
+POST {{host}}/api/token
+Content-Type: raw
+
+{
+    "client_id": "77004ea213d5fc71acf74a8c9c6795fb",
+    "client_secret": "8a5da52ed126447d359e70c05721a8aa"
+}
+###
+
+GET {{host}}/api/getbanner
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDbGllbnRfaWQiOiI3NzAwNGVhMjEzZDVmYzcxYWNmNzRhOGM5YzY3OTVmYiIsIkNsaWVudF9zZWNyZXQiOiI4YTVkYTUyZWQxMjY0NDdkMzU5ZTcwYzA1NzIxYThhYSIsImV4cCI6MTY5Nzg1MDc0Mn0.Jl06Ms42wRr2WicmHt2WXEVhAbOrgKK5Jqe8JUVI5ng
+Accept: application/json
+###
+
+POST {{host}}/users/signup
+Content-Type: application/json
+
+{
+    "client_id": "77004ea213d5fc71acf74a8c9c6795fb",
+    "client_secret": "8a5da52ed126447d359e70c05721a8aa",
+    "first_name": "John",
+    "last_name": "Doe",
+    "Password": "mypassword",
+    "email": "johndoe@example.com",
+    "phone": "12345678900",
+    "user_type": "ADMIN"
+}
+###
+
+GET {{host}}/users
+###

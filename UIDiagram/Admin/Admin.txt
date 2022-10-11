@@ -1,0 +1,7 @@
+ADMIN
+Able to see ( for selected time line-day-this week-7 days-month-this year-year): #of games, #of game studios, #of game developers, #of advertisers, #of brands, #of campaigns per advertiser&per brand&per game, #of ad spots, top 10 most preferred game & ad spot, budget & spending&balance per campaign, total cash, total withdrawn cash by developers&publishers, average budget & view &clicks per campaign, earnings per game &per developer &per game studio, top 3 genres in terms of; budget spent & views
+#of games by region, number of advertisers & brands by region
+# of Open & resolved tickets, ticket resolution length, top 5 ticket causes, admin operators by resolution; number, speed, type
+#of blocked developers & advertisers & brands by period ( day – week-month-6 month-year)
+Able to ; set custom campaign, hold & stop campaign, upload content on behalf of Advertiser ( with charge), black list advertiser &brand & game studio&game developer&Publisher. Check content of each campaign and approve to gol ive
+Authority Levels of Admin: 1- general fully authorized, 2- business &finance issues, 3- technical issues , 4-viewer only
