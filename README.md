@@ -2,4 +2,6 @@
  
 # Deploy
 go run main.go
-cd ./ FromClient
+
+# path
+cd ./FromClient
