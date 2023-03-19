@@ -4,4 +4,4 @@
 go run main.go
 
 # path
-cd ./ FromClient
+cd ./FromClient
